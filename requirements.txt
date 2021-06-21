@@ -1,0 +1,8 @@
+pybind11
+scikit-learn
+scipy
+numpy
+pandas
+libpecos
+tqdm
+kmeans1d
