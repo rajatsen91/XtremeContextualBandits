@@ -1,2 +1,2 @@
-# eXtremeContextualBandits
+# eXtreme Contextual Bandits
 Code for Top-k eXtreme Contextual Bandits coming soon......
