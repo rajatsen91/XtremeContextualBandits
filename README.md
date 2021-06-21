@@ -1,7 +1,7 @@
 # eXtreme Contextual Bandits
 Code for Top-k eXtreme Contextual Bandits: https://arxiv.org/abs/2102.07800
 
-##Data
+## Data
 
 We include utils to process the datasets in the XMC repository (https://tinyurl.com/4m7eczdv) to our input format. Download a dataset from the original link for instance Eurlex-4k. 
 
@@ -14,7 +14,7 @@ python xcb.utils.convert2sparse -i eurlex_train.txt -o path/to/train --normalize
 
 The ```normalize``` flag normalizes the features to unit l2-norm and is quite important for our experiments. 
 
-##Installation
+## Installation
 
 Clone the package ```recursively```.
 
@@ -37,7 +37,7 @@ pip install -e .
 
 ```
 
-##Usage
+## Usage
 
 
 
