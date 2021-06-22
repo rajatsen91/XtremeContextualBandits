@@ -45,7 +45,7 @@ class ModelChain {
       std::vector<std::pair<float, size_t>>& score_list, int topk, int level,
       int num_explore, float multiplier, bool explore_in_routing,
       std::string explore_strategy, float alpha);
-  // get top labels given input vector and the level of the pecos model
+  // get top labels given input vector and the level of the replace model
   std::vector<score> get_top_labels(
       eigen_rowmajor& in_vector, int level, std::vector<score>& labels,
       int topk, int num_explore, float multiplier, std::string post_processor,
